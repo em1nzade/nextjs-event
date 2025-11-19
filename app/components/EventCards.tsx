@@ -20,11 +20,7 @@ const EventCards = ({title, image, slug, date, location, time}: Props) => {
            <Image src="/icons/pin.svg" alt="location" width={14} height={14} />
            <p>{location}</p>
         </div>
-
-
             <p className="title">{title}</p>
-
-
         <div className="flex flex-row gap-2">
            <Image src="/icons/calendar.svg" alt="date" width={14} height={14} />
            <p>{date}</p>
@@ -36,11 +32,11 @@ const EventCards = ({title, image, slug, date, location, time}: Props) => {
         </div>
 
 
-        
-
       
     </Link>
   )
 }
 
 export default EventCards
+
+///test commit
